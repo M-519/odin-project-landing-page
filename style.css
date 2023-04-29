@@ -9,24 +9,60 @@ body {
     flex-direction: column;
 }
 
-/*Footer*/
-
-.footer {
-    display: flex;
-}
+/*header*/
+.header-box{display: flex;
+margin: 0px 50px 30px;}
 
 ul{list-style: none;
 display: flex;
 gap: 30px;
 flex: 1;
-padding: 0px;
-margin: 10px 30px;}
+padding: 0px;}
 
-.header-logo {
-    margin-right: auto;
+.header-logo {margin-right: auto;}
+/*header*/
+
+/**/
+.box-1 {display: flex;
+    margin: 0px 50px 30px;}
+
+.box-1-1 {display: flex;}
+
+.img-1 {    
+    width: 300px;
+    height: 150px;}
+
+/* Odin Project Values*/
+.dark-background{background-color: #1f2937;}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
+.header-logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
 
-/*Footer*/
-/**/
+.button-color{background-color: #3882f6;}
+
+.info-header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-background {background-color: #e5e7eb;}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
